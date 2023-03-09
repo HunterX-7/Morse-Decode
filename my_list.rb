@@ -1,18 +1,18 @@
 require_relative './enumerable'
 
 class MyList
-include MyEnumerable
+  include MyEnumerable
 
-    def initialize(*args)
-        @list = args
-    end
+  def initialize(*args)
+    @list = args
+  end
 
-    def each
-        @list.each { |e| yield e }
-    end
+  def each(&block)
+    @list.each(&block)
+  end
 end
 
-list = MyList.new(1,2,3,4)
+list = MyList.new(1, 2, 3, 4)
 
 puts(list.all? { |e| e < 5 }) # true
 
