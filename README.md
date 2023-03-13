@@ -88,13 +88,13 @@ This repository might include files with plain SQL that can be used to recreate 
 Clone this repository to your desired folder:
 
 ```sh
-git clone https://github.com/HunterX-7/vet_clinic.git
+git clone https://github.com/HunterX-7/Morse-Decode.git
 ```
 
 - Access the cloned directory with:
 
 ```sh
-cd vet_clinic
+cd Morse-Decode
 ```
 
 - Open it with your favorite code editor or with the live server
